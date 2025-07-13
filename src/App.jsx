@@ -13,7 +13,7 @@ const App = () => {
       <main className='flex justify-center items-center '>
           <Routes>
              <Route path='/' element={<Home/>}/>
-             <Route path='/Details/:id ' element={<Details/>}/>
+             <Route path='/Details/:id' element={<Details/>}/>
              <Route path='/Form/:id' element={<Form/>}/>
              <Route path='/Form' element={<Form/>}/>
           </Routes>
